@@ -25,7 +25,7 @@ The PAKSEN2 dataset comes in two versions. In case of PAKSEN2-ALL, the 13-band c
 ## Dataset Availability
 Full dataset will be made available on request. Sample images from the PAKSEN2 dataset are shown below: 
 
-![Figure3-10](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/dc5bab74-5e12-4b82-ad81-ae5addc9a66d)
+![Figure3-10](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/1cc37af1-a78c-42ec-9e29-e0db39a61970)
 
 
 ## Applications and Future Work
