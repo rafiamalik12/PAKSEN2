@@ -1,23 +1,21 @@
-# PAKSEN2
+![fig-3-lightmode](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/83172209-dc76-4125-8784-1b9ea4559b2c)# PAKSEN2
 We introduce a novel dataset comprising of Sentinel-2 imagery of Pakistani water resources. This dataset has the potential to become a benchmark for training and evaluation of water classification and segmentation models in future research.
 
 ## Data Collection
-Pakistan possesses one of the world's largest interconnected irrigation systems, known as the Indus Basin Irrigation System (IBIS), which encompasses rivers, canals, dams, lakes, and seas. For PAKSEN2 dataset, six distinct water resources from various geographic regions across Pakistan were selected. Sentinel-2 imagery for the said water resources was procured from the USGS Earth Explorer, a prominent platform for hosting free satellite and aerial imagery. We obtained six satellite tiles, one for each of the six chosen water resources. The satellite tiles were carefully selected to represent different seasons throughout the year, as well as maintaining an overall cloud cover of less than 2%.
+Pakistan possesses one of the world's largest interconnected irrigation systems, known as the Indus Basin Irrigation System (IBIS), which encompasses rivers, canals, dams, lakes, and seas. For PAKSEN2 dataset, six distinct water resources from various geographic regions across Pakistan were selected. Sentinel-2 imagery for the said water resources was procured from the USGS Earth Explorer, a prominent platform for hosting free satellite and aerial imagery. We obtained six satellite tiles, one for each of the six chosen water resources. The satellite tiles were carefully selected to represent different seasons throughout the year, as well as 
+
+![fig-3](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/9e50bc0a-8a19-4e28-957c-932c44880cd3)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-</picture>
-
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/rafiamalik12/PAKSEN2/assets/32853925/33e5ac8a-a6d9-4c8a-9277-d97ad798838f.png">
-  <img alt="Selected Water Selected" src="https://github.com/rafiamalik12/PAKSEN2/assets/32853925/33e5ac8a-a6d9-4c8a-9277-d97ad798838f.png">
+  <source media="(prefers-color-scheme: dark)" srcset="![fig3-darkmode](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/75736b69-20d7-4eeb-b9ac-184c92a60100)">
+  <source media="(prefers-color-scheme: light)" srcset="![fig-3-lightmode](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/01031ed0-a08f-48c3-89ac-e742d8d744dd)">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="![fig3-darkmode](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/75736b69-20d7-4eeb-b9ac-184c92a60100)">
 </picture>
 
 
 ## Data Preprocessing and Annotation
-A Sentinel-2 image tile contains 13 distinct bands with varying spectral resolutions (10m, 20m, and 60m). To create a composite image, the 20m and 60m bands are up-scaled to 10m resolution using interpolation and then combined together to form a single multispectral image. This preprocessing was carried out using the open-source software QGIS, which employs cubic-spline interpolation for generating composite images. For each tile, we produced two types of composite images: an RGB image (Red, Green, Blue bands) and a 13-band image with all bands interpolated to 10m resolution. Image annotation was performed by using the Label-Me tool, carefully delineating water bodies using polygons, and saving binary image masks (.png) for each satellite image. The LabelMe tool was modified to save binary class mask files directly from the labeled polygon points. The modified version of LabelMe is available at link.
+A Sentinel-2 image tile contains 13 distinct bands with varying spectral resolutions (10m, 20m, and 60m). To create a composite image, the 20m and 60m bands are up-scaled to 10m resolution using interpolation and then combined together to form a single multispectral image. This preprocessing was carried out using the ![fig-3-lightmode](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/fd247287-fc2a-4d93-988f-c7d46b27c1f7)
+open-source software QGIS, which employs cubic-spline interpolation for generating composite images. For each tile, we produced two types of composite images: an RGB image (Red, Green, Blue bands) and a 13-band image with all bands interpolated to 10m resolution. Image annotation was performed by using the Label-Me tool, carefully delineating water bodies using polygons, and saving binary image masks (.png) for each satellite image. The LabelMe tool was modified to save binary class mask files directly from the labeled polygon points. The modified version of LabelMe is available at link.
 
 ![Picture1](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/c0e7ebd2-a08b-4ba4-9d34-1eeae6c1ee62)
 
