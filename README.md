@@ -4,9 +4,9 @@ We introduce a novel dataset comprising of Sentinel-2 imagery of Pakistani water
 ## Data Collection
 Pakistan possesses one of the world's largest interconnected irrigation systems, known as the Indus Basin Irrigation System (IBIS), which encompasses rivers, canals, dams, lakes, and seas. For PAKSEN2 dataset, six distinct water resources from various geographic regions across Pakistan were selected. Sentinel-2 imagery for the said water resources was procured from the USGS Earth Explorer, a prominent platform for hosting free satellite and aerial imagery. We obtained six satellite tiles, one for each of the six chosen water resources. The satellite tiles were carefully selected to represent different seasons throughout the year, as well as maintaining an overall cloud cover of less than 2%.
 
-![fig-3](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/33e5ac8a-a6d9-4c8a-9277-d97ad798838f)
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/rafiamalik12/PAKSEN2/assets/32853925/33e5ac8a-a6d9-4c8a-9277-d97ad798838f">
+  #<img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://github.com/rafiamalik12/PAKSEN2/assets/32853925/33e5ac8a-a6d9-4c8a-9277-d97ad798838f">
 </picture>
 
 
