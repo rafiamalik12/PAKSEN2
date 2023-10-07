@@ -9,7 +9,7 @@ Pakistan possesses one of the world's largest interconnected irrigation systems,
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="![fig3-darkmode](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/75736b69-20d7-4eeb-b9ac-184c92a60100)">
   <source media="(prefers-color-scheme: light)" srcset="![fig-3-lightmode](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/01031ed0-a08f-48c3-89ac-e742d8d744dd)">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="![fig-3-lightmode](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/01031ed0-a08f-48c3-89ac-e742d8d744dd)">
+  <img alt="" src="![fig-3-lightmode](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/01031ed0-a08f-48c3-89ac-e742d8d744dd)">
 </picture>
 
 
