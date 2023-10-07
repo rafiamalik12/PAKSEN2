@@ -1,7 +1,7 @@
 # PAKSEN2
 <p align="justify"> 
 We introduce a novel dataset comprising of Sentinel-2 imagery of Pakistani water resources. This dataset has the potential to become a benchmark for training and evaluation of water classification and segmentation models in future research.
-</p>
+
 
 ## Data Collection
 <p align="justify">  
