@@ -4,28 +4,33 @@ We introduce a novel dataset comprising of Sentinel-2 imagery of Pakistani water
 ## Data Collection
 Pakistan possesses one of the world's largest interconnected irrigation systems, known as the Indus Basin Irrigation System (IBIS), which encompasses rivers, canals, dams, lakes, and seas. For PAKSEN2 dataset, six distinct water resources from various geographic regions across Pakistan were selected. Sentinel-2 imagery for the said water resources was procured from the USGS Earth Explorer, a prominent platform for hosting free satellite and aerial imagery. We obtained six satellite tiles, one for each of the six chosen water resources. The satellite tiles were carefully selected to represent different seasons throughout the year, as well as maintaining an overall cloud cover of less than 2%.
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/rafiamalik12/PAKSEN2/assets/32853925/33e5ac8a-a6d9-4c8a-9277-d97ad798838f">
-  #<img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://github.com/rafiamalik12/PAKSEN2/assets/32853925/33e5ac8a-a6d9-4c8a-9277-d97ad798838f">
-</picture>
+<div align="center">
+![fig-3](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/33e5ac8a-a6d9-4c8a-9277-d97ad798838f#gh-light-mode-only)
+</div>
 
 
 ## Data Preprocessing and Annotation
 A Sentinel-2 image tile contains 13 distinct bands with varying spectral resolutions (10m, 20m, and 60m). To create a composite image, the 20m and 60m bands are up-scaled to 10m resolution using interpolation and then combined together to form a single multispectral image. This preprocessing was carried out using the open-source software QGIS, which employs cubic-spline interpolation for generating composite images. For each tile, we produced two types of composite images: an RGB image (Red, Green, Blue bands) and a 13-band image with all bands interpolated to 10m resolution. Image annotation was performed by using the Label-Me tool, carefully delineating water bodies using polygons, and saving binary image masks (.png) for each satellite image. The LabelMe tool was modified to save binary class mask files directly from the labeled polygon points. The modified version of LabelMe is available at link.
 
+<div align="center">
 ![Picture1](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/c0e7ebd2-a08b-4ba4-9d34-1eeae6c1ee62)
+</div>
 
 
 ## Dataset Creation
 The PAKSEN2 dataset comes in two versions. In case of PAKSEN2-ALL, the 13-band composite images are divided into 64 x 64 pixel image patches and categorized into two groups, namely “Water” and “Non-water”, based on the percentage of water pixels in their binary masks. Image patches with at least 70% water pixels are labeled as “Water”, while those below this threshold are labeled as “Non-water”. Additionally, an RGB version of the dataset is also available. The key features of the PAKSEN2 dataset are summarized as below:
 
+<div align="center">
 ![Figure3-9](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/b5cbd443-25ba-4d33-8d84-cb9ad95ae7ef)
+</div>
 
 
 ## Dataset Availability
 Full dataset will be made available on request. Sample images from the PAKSEN2 dataset are shown below: 
 
+<div align="center">
 ![Figure3-10](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/615263bd-8010-4b67-a036-6257ae233f7b)
+</div>
 
 
 ## Applications and Future Work
