@@ -6,7 +6,7 @@ Pakistan possesses one of the world's largest interconnected irrigation systems,
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/rafiamalik12/PAKSEN2/assets/32853925/33e5ac8a-a6d9-4c8a-9277-d97ad798838f">
-  <img alt="" src="https://github.com/rafiamalik12/PAKSEN2/assets/32853925/33e5ac8a-a6d9-4c8a-9277-d97ad798838f.png">
+  <img alt="Selected Water Selected" src="https://github.com/rafiamalik12/PAKSEN2/assets/32853925/33e5ac8a-a6d9-4c8a-9277-d97ad798838f.png">
 </picture>
 
 
