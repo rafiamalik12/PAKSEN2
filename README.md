@@ -28,6 +28,9 @@ Full dataset will be made available on request. Sample images from the PAKSEN2 d
 ![Figure3-10](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/1cc37af1-a78c-42ec-9e29-e0db39a61970)
 
 ![Figure3-10](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/1227202f-3233-472e-916d-a77fcf6f5f71)
+![Figure3-10](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/138422cb-0324-4c33-b608-46ab8cd46243)
+
+
 
 ## Applications and Future Work
 PAKSEN2 dataset can be used to train/fine-tune classification networks such as ResNet50 and Vision Transformers (ViT) for water classification.  Another important feature of PAKSEN2 is the inclusion of meticulously crafted binary masks for each data sample, specifically designed for water segmentation tasks. Using these binary masks, we can effectively separate water bodies from the surrounding landscape in Sentinel-2 imagery. 
