@@ -1,4 +1,4 @@
-![fig-3-lightmode](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/83172209-dc76-4125-8784-1b9ea4559b2c)# PAKSEN2
+# PAKSEN2
 We introduce a novel dataset comprising of Sentinel-2 imagery of Pakistani water resources. This dataset has the potential to become a benchmark for training and evaluation of water classification and segmentation models in future research.
 
 ## Data Collection
@@ -14,8 +14,7 @@ Pakistan possesses one of the world's largest interconnected irrigation systems,
 
 
 ## Data Preprocessing and Annotation
-A Sentinel-2 image tile contains 13 distinct bands with varying spectral resolutions (10m, 20m, and 60m). To create a composite image, the 20m and 60m bands are up-scaled to 10m resolution using interpolation and then combined together to form a single multispectral image. This preprocessing was carried out using the ![fig-3-lightmode](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/fd247287-fc2a-4d93-988f-c7d46b27c1f7)
-open-source software QGIS, which employs cubic-spline interpolation for generating composite images. For each tile, we produced two types of composite images: an RGB image (Red, Green, Blue bands) and a 13-band image with all bands interpolated to 10m resolution. Image annotation was performed by using the Label-Me tool, carefully delineating water bodies using polygons, and saving binary image masks (.png) for each satellite image. The LabelMe tool was modified to save binary class mask files directly from the labeled polygon points. The modified version of LabelMe is available at link.
+A Sentinel-2 image tile contains 13 distinct bands with varying spectral resolutions (10m, 20m, and 60m). To create a composite image, the 20m and 60m bands are up-scaled to 10m resolution using interpolation and then combined together to form a single multispectral image. This preprocessing was carried out using the open-source software QGIS, which employs cubic-spline interpolation for generating composite images. For each tile, we produced two types of composite images: an RGB image (Red, Green, Blue bands) and a 13-band image with all bands interpolated to 10m resolution. Image annotation was performed by using the Label-Me tool, carefully delineating water bodies using polygons, and saving binary image masks (.png) for each satellite image. The LabelMe tool was modified to save binary class mask files directly from the labeled polygon points. The modified version of LabelMe is available at link.
 
 ![Picture1](https://github.com/rafiamalik12/PAKSEN2/assets/32853925/c0e7ebd2-a08b-4ba4-9d34-1eeae6c1ee62)
 
