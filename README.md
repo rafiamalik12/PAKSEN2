@@ -40,4 +40,4 @@ In the future, we plan to geographically expand the PAKSEN2 dataset by incorpora
   
 ## Citation
 <p align="justify"> 
-"Supervised Classification of Water Bodies: Analyzing Various Methods through a Case Study of Water Resources in Pakistan", 20th International Bhurban Conference on Applied Sciences and Technology (IBCAST), Aug 2023, Islamabad, Pakistan
+"Supervised Classification of Water Bodies: Analyzing Various Methods through a Case Study of Water Resources in Pakistan", 20<sup>Xth<sup></sup> International Bhurban Conference on Applied Sciences and Technology (IBCAST), Aug 2023, Islamabad, Pakistan
