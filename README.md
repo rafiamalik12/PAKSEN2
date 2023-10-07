@@ -1,3 +1,4 @@
+<p align="justify"> 
 # PAKSEN2
 We introduce a novel dataset comprising of Sentinel-2 imagery of Pakistani water resources. This dataset has the potential to become a benchmark for training and evaluation of water classification and segmentation models in future research.
 
@@ -34,4 +35,4 @@ In the future, we plan to geographically expand the PAKSEN2 dataset by incorpora
 ## Citation
 "Supervised Classification of Water Bodies: Analyzing Various Methods through a Case Study of Water Resources in Pakistan", 20th International Bhurban Conference on Applied Sciences and Technology (IBCAST), Aug 2023, Islamabad, Pakistan
 
-
+</p>
